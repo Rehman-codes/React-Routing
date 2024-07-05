@@ -1,0 +1,53 @@
+#intro-page-section{
+    position: relative;
+    width: 100vw;
+    height: 85vh;
+    overflow: hidden;
+}
+
+
+#intro-page-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.85;
+}
+
+#intro-page-section div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 50%;
+    background-color: #FFF7ED;
+    border-radius: 5px;
+}
+
+#intro-page-section div h1,p,button{
+    margin: 3%;
+    color: #000000;
+}
+
+#intro-page-section div button{
+    background-color: #FF8C38;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    height: 20%;
+}
+
+#intro-page-section div h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#intro-page-section div p{
+   color: rgb(103, 103, 103);
+}
+
+#intro-page-section div button{
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
